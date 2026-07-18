@@ -1,0 +1,12 @@
+{
+    "name": "swapspace",
+    "version": "1.0.0",
+    "scripts": {
+      "start": "cd backend && npm start",
+      "build": "cd frontend && npm install && npm run build",
+      "dev": "concurrently \"cd backend && npm run dev\" \"cd frontend && npm run dev\""
+    },
+    "devDependencies": {
+      "concurrently": "^8.x.x"
+    }
+  }
